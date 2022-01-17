@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  background-color: green;
+  height: 100vh;
+}
+
+.hero-background {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  filter: brightness(0.3);
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-white {
+  height: 100px;
+  margin-left: 30px;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 30px;
+}
+
+nav li {
+  padding: 20px;
+  color: white;
+  list-style: none;
+}
+
+header section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 200px;
+  z-index: 2;
+}
+
+header section h1 {
+  margin: 10px 40px;
+  color: white;
+}
+
+header section ul {
+  display: flex;
+}
+
+header section ul li {
+  border: solid 2px #e67e22;
+  border-radius: 200px;
+  margin: 15px;
+  padding: 10px 50px;
+  background-color: #e67e22;
+  list-style: none;
+}
+
+header section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main section1:first-child {
+  width: 100%;
+  height: 700px;
+  margin: 0;
+  /* background-color: brown; */
+}
+
+
+
+.row1 {
+  padding: 0 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row1 h2 {
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.row1 div {
+  width: 100px;
+  height: 5px;
+  margin: 15px;
+  background-color: #e67e22;
+}
+
+.row2 {
+  width: 100%;
+  height: 350px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 20%;
+  height: 280px;
+}
+
+.icon-big {
+  color:#e67e22;
+  font-size: 80px;
+}
+
+.card h3 {
+  margin-bottom: 8px;
+}
+
+.section2 {
+  width:100%;
+  height: 400px;
+  background-color: steelblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50% 50%;
+}
+
+.section2 div:first-child {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.section2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section3 {
+  width:100%;
+  height: 720px;
+  background-color:#f4f4f4;
+  position: relative;
+}
+
+.section3>div:first-child {
+  width: 100%;
+  height: 25%;
+}
+
+.section3>div:last-child {
+  width: 100%;
+  height: 75%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.section3 h1 {
+  padding-top: 50px;
+  font-size: 200%;
+  text-align: center;
+}
+
+.section3 span {
+  width: 100px;
+  height: 5px;
+  margin: 15px;
+  position: absolute;
+  left: 45%;
+  background-color: #e67e22;
+}
+
+.left {
+  position: relative;
+}
+
+.left img {
+  width: 225px;
+  height: 450px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.right div {
+  width: 100%;
+  height:  25%;
+  padding: 50px 60px 0px 50px;
+  display: flex;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  color: #e67e22;
+  border: solid #e67e22;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 40px;
+}
+
+.right div:last-child {
+  display: flex;
+}
+
+.apple-store {
+  width: 200px;
+  height: 60px;
+}
+
+.google-play {
+  width: 200px;
+  height: 60px;
+}
+
+.apple-store img {
+  height: 100%;
+}
+
+.section4 {
+  width: 100%;
+  height: 480px;
+  background-color: thistle;
+}
+
+.section4>h1 {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.section4 span {
+  width: 100px;
+  height: 5px;
+  margin: 15px;
+  position: absolute;
+  left: 45%;
+  background-color: #e67e22;
+}
+
+.city-cards-container {
+  width: 100%;
+  height: 100%;
+  background-color: wheat;
+  display: flex;
+  justify-content: space-around;
+}
+
+.city-card-container {
+  width: 100%;
+  height: 80%;
+  margin: 40px 15px 0px 15px;
+}
+
+.city-card-container img {
+  width: 250px;
+  height: 170px;
+  object-fit: cover;
+}
+
+.city-description {
+  height: 25px;
+  width: 240px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  background-color: powderblue;
+}
+
+.city-description img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  background-color: purple;
+}
