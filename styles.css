@@ -235,7 +235,6 @@ main section1:first-child {
 .section4 {
   width: 100%;
   height: 480px;
-  background-color: thistle;
 }
 
 .section4>h1 {
@@ -256,7 +255,6 @@ main section1:first-child {
 .city-cards-container {
   width: 100%;
   height: 100%;
-  background-color: wheat;
   display: flex;
   justify-content: space-around;
 }
@@ -278,12 +276,16 @@ main section1:first-child {
   width: 240px;
   margin-bottom: 10px;
   padding-left: 10px;
-  background-color: powderblue;
+  display: flex;
 }
 
-.city-description img {
-  width: 20px;
-  height: 20px;
+.city-description i {
+  width: 32px;
+  height: 32px;
   margin-right: 20px;
-  background-color: purple;
+  color:#e67e22;
+}
+
+.city-description a {
+  color:#e67e22;
 }
